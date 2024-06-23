@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
-import { devProjects, designProjects, ProjectProps } from "./projectDetails";
-import { useState } from "react";
+import { devProjects, ProjectProps } from "./projectDetails";
+
 
 const ProjectGrid = () => {
   // const [filter, setFilter] = useState(true);

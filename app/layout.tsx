@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "www.vaibhavzade.com",
     images: [
       {
-        url: "https://github.com/sanjay-ar/Portfolio/assets/95616838/7017e6ec-5e2d-403b-8bc1-fee8c9774fd9",
+        url: "https://github.com/VZade1999/myportfolio/blob/main/public/profiless.png?raw=true",
         width: 1200,
         height: 630,
         alt: "vaibhav — MERN Engineer",

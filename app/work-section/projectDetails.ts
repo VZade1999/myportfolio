@@ -12,6 +12,17 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "Room Booking",
+    description:
+      "This project involved developing a state-of-the-art room booking website for Hotel Midas Regency. The website was designed to enhance user experience, streamline the booking process, and integrate secure payment options.",
+    technologies: ["MERN", "Payment Gate way","Node"],
+    github: "https://github.com/VZade1999?tab=repositories",
+    demo: "https://hotelmidasreegency.com/",
+    image: require(".//../../public/projects/mids reegency.png"),
+    available: true,
+  },
+  {
+    id: 1,
     name: "Nk Fincorp",
     description:
       "Nk Fincorp platform for setting up a business and managing compliance.",

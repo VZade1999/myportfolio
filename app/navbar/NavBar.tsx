@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import resume from '../../public/resume';
 
 const NavBar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -18,9 +17,9 @@ const NavBar = () => {
     });
   };
 
-  const openResume = ()=>{
-    window.open("", "_blank");
-  }
+  const openResume = () => {
+    window.open("https://github.com/VZade1999/myportfolio/blob/badd8fc618de8e159c89585b2c89ae4d5358494d/public/resume.pdf", "_blank");
+  };
 
   return (
     <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[383.3px] md:p-2 lg:w-[491.3px]">

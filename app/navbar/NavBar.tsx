@@ -1,9 +1,6 @@
 "use client";
 import Link from "next/link";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import resume from '../../public/resume'
-
+import resue from "../../public/";
 const NavBar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     // first prevent the default behavior
@@ -19,7 +16,7 @@ const NavBar = () => {
   };
 
   const openResume = () => {
-    window.open("https://github.com/VZade1999/myportfolio/blob/badd8fc618de8e159c89585b2c89ae4d5358494d/public/resume.pdf", "_blank");
+    window.open("/resume.pdf", "_blank");
   };
 
   return (

@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import resue from "../../public/";
 const NavBar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     // first prevent the default behavior

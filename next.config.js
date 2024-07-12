@@ -10,6 +10,7 @@ const nextConfig = {
       "cdn.hashnode.com",
       "www.hackerrank.com",
       "media.licdn.com",
+      "moonshot.scaler.com",
     ],
   },
   fontLoaders: [

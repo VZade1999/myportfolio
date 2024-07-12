@@ -37,6 +37,28 @@ export const devProjects = [
 export const designProjects = [
   {
     id: 1,
+    name: "Frontend (React)",
+    description:
+      "I gained a deep understanding of the following concepts and skills:Basics of React, JSX and DOM Updates,React Hooks and Lifecycle, Performance Optimization, Redux/Context API",
+    technologies: [],
+    github: "https://github.com/VZade1999/certificates",
+    demo: "https://moonshot.scaler.com/s/sl/JzjeQ31xYx",
+    image: "https://moonshot.scaler.com/s/image/sl/JzjeQ31xYx?scope=body",
+    available: false,
+  },
+  {
+    id: 2,
+    name: "Javascript",
+    description:
+      "I gained a deep understanding of the following concepts and skills:Basics of JavaScript, Object-Oriented JavaScript, Asynchronous JavaScript, Error Handling, JavaScript in the Browser, Modern JavaScript Features",
+    technologies: [],
+    github: "https://github.com/VZade1999/certificates",
+    demo: "https://moonshot.scaler.com/s/sl/mETAYS1MV0",
+    image: "https://moonshot.scaler.com/s/image/sl/mETAYS1MV0?scope=body",
+    available: false,
+  },
+  {
+    id: 3,
     name: "React Basic",
     description:
       "React (Basic) It covers topics like Basic Routing, Rendering Elements,State Management (Internal Component State), Handling Events, ES6 and JavaScript and Form Validation.",
@@ -48,7 +70,7 @@ export const designProjects = [
     available: false,
   },
   {
-    id: 2,
+    id: 4,
     name: "JavaScript",
     description:
       "It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.",
@@ -60,10 +82,9 @@ export const designProjects = [
     available: false,
   },
   {
-    id: 3,
+    id: 5,
     name: "SQL (Basic)",
-    description:
-      "It includes simple queries, relationships, and aggregators.",
+    description: "It includes simple queries, relationships, and aggregators.",
     technologies: [],
     github: "https://github.com/VZade1999/certificates",
     demo: "https://www.hackerrank.com/certificates/9157cb00a367",
